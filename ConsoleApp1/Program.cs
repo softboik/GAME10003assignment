@@ -104,6 +104,25 @@ internal class Program
                         Console.WriteLine("RIGHT");
 
                         input = Console.ReadLine();
+
+                        if (input == "left")
+                        {
+                            Console.WriteLine("You take the left turn next to you, running ahead through the dark hallway until you see a figure in the dark. From the side of that figure, a massive hand reaches out of the dark, grabbing onto you and pulling you in, with a grp too strong to escape from. \nGAME OVER ");
+                            Console.ReadLine();
+                        }
+                        else if (input == "straight")
+                        {
+                            Console.WriteLine("You continue straight ahead, taking hte forced right turn a little further down the hallway. As you turn the corner, you freeze in shock, having walked in on a cow on two legs. This cow, standing over a cauldron, is stirring the roiling contents slowly, while humming to itself. Before long it notices you, screaming in surprise and fear, immediately alerting the Monster to your location, which quickly blocks your exit, leaving your journey to end on a note of confusion. \nGAME OVER");
+                            Console.ReadLine();
+                        }
+                        else if (input == "right")
+                        {
+                            Console.WriteLine("Quickly you sidestep to the right. Following the hallway for a short distance brings you to a small fork in the road, with a path off to the left and another still ahead. \nWhich do you take?");
+                            Console.WriteLine("LEFT");
+                            Console.WriteLine("STRAIGHT");
+
+                            input = Console.ReadLine();
+                        }
                     }
                     else if (input == "straight") ;
                     {
