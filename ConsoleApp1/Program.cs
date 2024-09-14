@@ -23,7 +23,11 @@ internal class Program
 
                     if (input == "STRAIGHT") ;
                     {
-
+                        Console.WriteLine("You quickly take off into a sprint, Onlly to be met by a wall. After diving to the side, avoiding the monster that you can hear rumbling the floor behind you, you're met with another choice to make. \nWhich path will you take?");
+                    }
+                    else if (input == "RIGHT") ;
+                    {
+                        Console.WriteLine("You dive to your right to avoid a massive fist crashing down into the floor where you stood. As you scramble to your feet you realize there's two paths yet again. \nWhich will you take?")
                     }
                 }
             }
