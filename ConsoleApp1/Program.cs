@@ -105,6 +105,11 @@ internal class Program
 
                         input = Console.ReadLine();
                     }
+                    else if (input == "straight") ;
+                    {
+                        Console.WriteLine("You continue your straight sprint down the hallway, follwowing the wall on your right around a couple corners, until you reach a dead end, the Monster grunting and growling as it lurks closer, finding you in seconds, cornered. \nGAME OVER");
+                        Console.ReadLine();
+                    }
                     
                     }
                 
