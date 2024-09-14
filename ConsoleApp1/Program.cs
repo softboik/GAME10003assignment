@@ -89,7 +89,23 @@ internal class Program
                     }
                     else if (input == "right")
                     {
-                    Console.WriteLine("You dive to your right to avoid a massive fist crashing down into the floor where you stood. As you scramble to your feet you realize there's two paths yet again. \nWhich will you take?");
+                        Console.WriteLine("You dive to your right to avoid a massive fist crashing down into the floor where you stood. As you scramble to your feet you realize there's two paths yet again. \nWhich will you take?");
+
+                    Console.WriteLine("LEFT");
+                    Console.WriteLine("STRAIGHT");
+
+                    input = Console.ReadLine();
+
+                    if (input == "left")
+                    {
+                        Console.WriteLine("You swerve down the opening to your left, the Monster falling on the floor as it careens past, blown over by its own inertia, leaving you a little more time to make this decision as you come to a large cross of different paths. \nWhere do you go?");
+                        Console.WriteLine("LEFT");
+                        Console.WriteLine("STRAIGHT");
+                        Console.WriteLine("RIGHT");
+
+                        input = Console.ReadLine();
+                    }
+                    
                     }
                 
             }
