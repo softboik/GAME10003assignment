@@ -31,12 +31,13 @@ internal class Program
                         input = Console.ReadLine();
 
                         if (input == "left")
-                    {
+                     {
                         Console.WriteLine("You weave left as you dodge down another corridor. However, you quickly come to realize that this only leads to a dead end! With the monster towering over you, you close your eyes, and- \nGAME OVER");
+                        
                         Console.ReadLine();
-                    }
+                     }
                         else if (input == "right")
-                    {
+                     {
                         Console.WriteLine("As the Monster comes crashing into the wall behind you, you quickly take off once again to your right. Quickly again you find yourself at a crossroads, how much further will you have to go? \nWhere will you go?");
 
                         Console.WriteLine("LEFT");
@@ -46,9 +47,23 @@ internal class Program
 
                         if (input == "left")
                         {
-                            Console.Writeline
+                            Console.WriteLine("You cut left, finding yourself pressed against a long wall, with one path in each direction. \nYou get a bad feeling about this.");
+
+                            Console.WriteLine("LEFT");
+                            Console.WriteLine("RIGHT");
+
+                            input = Console.ReadLine();
                         }
-                    }
+                        else if (input == "right")
+                        {
+                            Console.WriteLine("After dodging to the right, and following the pathway to the left, you come to an area with a hallway on your right side, and an open, dark doorway straight ahead. Do you take the chance with the doorway? Or risk losing yourself down anotehr set of hallways?");
+
+                            Console.WriteLine("STRAIGHT");
+                            Console.WriteLine("RIGHT");
+
+                            input = Console.ReadLine();
+                        }
+                     }
                     }
                     else if (input == "right")
                     {
