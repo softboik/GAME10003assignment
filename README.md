@@ -1,4 +1,4 @@
-# GAME10003assignment
+# roberts-olwyn-a1-mazegame
 
 INSTRUCTIONS: Only use actions that are prompted in-game. 
 			  The actions must be typed in the lower case.
