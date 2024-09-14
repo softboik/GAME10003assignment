@@ -53,6 +53,17 @@ internal class Program
                             Console.WriteLine("RIGHT");
 
                             input = Console.ReadLine();
+
+                            if (input == "left")
+                            {
+                                Console.WriteLine("You sprint down the hallway to your left, slowing as you come to the dead end that was obscured by the darkness, the Monster looming behind you. \nGAME OVER");
+                                Console.ReadLine();
+                            }
+                            else if (input == "right")
+                            {
+                                Console.WriteLine("You sprint down the hallway to your right, following its continuous right turns until you reach the end of the inward spiral. The Monster peeks it's head around the corner and smiles, seeing that you cornered yourself. \nGAME OVER");
+                                Console.ReadLine();
+                            }
                         }
                         else if (input == "right")
                         {
