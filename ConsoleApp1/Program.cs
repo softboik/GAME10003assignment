@@ -76,7 +76,7 @@ internal class Program
 
                             if (input == "straight")
                             {
-                                Console.WriteLine("You Continue running straight ahead to the somewhat obscurred doorway, throwing yourself through as soon as you get close. looking behind you from the floor you see the Monster, however that line of sight is quickly cut off as a massive stone door slams closed just before it can escape with you. As you finally let out a heavy breath, you look up, the night sky glittering with stars, seeming to shine brighter with the celebration fo your success. \nCONGRATULATIONS! YOU WIN!");
+                                Console.WriteLine("You Continue running straight ahead to the somewhat obscurred doorway, throwing yourself through as soon as you get close. looking behind you from the floor you see the Monster, however that line of sight is quickly cut off as a massive stone door slams closed just before it can escape with you. As you finally let out a heavy breath, you look up, the night sky glittering with stars, seeming to shine brighter with the celebration for your success. \nCONGRATULATIONS! YOU WIN!");
                                 Console.ReadLine();
                             }
                             else if (input == "right")
@@ -138,7 +138,8 @@ internal class Program
                                 }
                                 else if (input == "right")
                                 {
-                                    Console.WriteLine("You lean into a full sprint towards the somewhat obscurred doorway on the right, throwing yourself through as soon as you get close. looking behind you from the floor you see the Monster, however that line of sight is quickly cut off as a massive stone door slams closed just before it can escape with you. As you finally let out a heavy breath, you look up, the night sky glittering with stars, seeming to shine brighter with the celebration fo your success. \nCONGRATULATIONS! YOU WIN!");
+                                    Console.WriteLine("You lean into a full sprint towards the somewhat obscurred doorway on the right, throwing yourself through as soon as you get close. looking behind you from the floor you see the Monster, however that line of sight is quickly cut off as a massive stone door slams closed just before it can escape with you. As you finally let out a heavy breath, you look up, the night sky glittering with stars, seeming to shine brighter with the celebration for your success. \nCONGRATULATIONS! YOU WIN!");
+                                    Console.ReadLine();
                                 }
                             }
                             else if (input == "straight")
@@ -148,7 +149,7 @@ internal class Program
                             }
                         }
                     }
-                    else if (input == "straight") ;
+                    else if (input == "straight")
                     {
                         Console.WriteLine("You continue your straight sprint down the hallway, follwowing the wall on your right around a couple corners, until you reach a dead end, the Monster grunting and growling as it lurks closer, finding you in seconds, cornered. \nGAME OVER");
                         Console.ReadLine();
