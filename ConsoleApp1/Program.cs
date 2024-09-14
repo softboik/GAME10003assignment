@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.Design;
+//hell yeah
 
 internal class Program
 {
