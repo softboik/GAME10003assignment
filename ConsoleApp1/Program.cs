@@ -125,7 +125,21 @@ internal class Program
 
                             if (input == "left")
                             {
-                                Console.WriteLine();
+                                Console.WriteLine("You nearly slip as you dip to the left, catching your breath as you come out of the hallway, head swinging left and right to check possibilities. To your right is a dark doorway, uncertain. To your left is more hallways, do you risk it? \nWhat do you choose?");
+                                Console.WriteLine("LEFT");
+                                Console.WriteLine("RIGHT");
+
+                                input = Console.ReadLine();
+
+                                if (input == "left")
+                                {
+                                    Console.WriteLine("You slip left into the hallway, deciding not to take the possible exit, rather, you lose yourself further in the dungeon, eventually getting caught by the Monster. \nGAME OVER");
+                                    Console.ReadLine();
+                                }
+                                else if (input == "right")
+                                {
+                                    Console.WriteLine("You lean into a full sprint towards the somewhat obscurred doorway on the right, throwing yourself through as soon as you get close. looking behind you from the floor you see the Monster, however that line of sight is quickly cut off as a massive stone door slams closed just before it can escape with you. As you finally let out a heavy breath, you look up, the night sky glittering with stars, seeming to shine brighter with the celebration fo your success. \nCONGRATULATIONS! YOU WIN!");
+                                }
                             }
                             else if (input == "straight")
                             {
