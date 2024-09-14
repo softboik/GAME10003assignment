@@ -122,6 +122,16 @@ internal class Program
                             Console.WriteLine("STRAIGHT");
 
                             input = Console.ReadLine();
+
+                            if (input == "left")
+                            {
+                                Console.WriteLine();
+                            }
+                            else if (input == "straight")
+                            {
+                                Console.WriteLine("You keep running straight after the short break, turning left where the hall turns, unfortunately coming to a dead end around taht same corner. You turn around to see the Monster's face reflecting whatever light there is in the dnak halls, stalking closer and closer. \nGAME OVER");
+                                Console.ReadLine();
+                            }
                         }
                     }
                     else if (input == "straight") ;
