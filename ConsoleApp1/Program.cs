@@ -73,6 +73,17 @@ internal class Program
                             Console.WriteLine("RIGHT");
 
                             input = Console.ReadLine();
+
+                            if (input == "straight")
+                            {
+                                Console.WriteLine("You Continue running straight ahead to the somewhat obscurred doorway, throwing yourself through as soon as you get close. looking behind you from the floor you see the Monster, however that line of sight is quickly cut off as a massive stone door slams closed just before it can escape with you. As you finally let out a heavy breath, you look up, the night sky glittering with stars, seeming to shine brighter with the celebration fo your success. \nCONGRATULATIONS! YOU WIN!");
+                                Console.ReadLine();
+                            }
+                            else if (input == "right")
+                            {
+                                Console.WriteLine("You slip into the hallway, deciding not to take the possible exit, rather, you lose yourself further in the dungeon, eventually getting caught by the Monster. \nGAME OVER");
+                                Console.ReadLine();
+                            }
                         }
                      }
                     }
